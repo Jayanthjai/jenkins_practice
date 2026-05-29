@@ -6,4 +6,5 @@ driver.get("https://testautomationpractice.blogspot.com/")
 title=driver.title
 
 print(driver.title)
-assert title=='Automation Testing Practice'
+def test_title():
+  assert title=='Automation Testing Practice'
